@@ -1,6 +1,7 @@
 import { Form } from "./components/Form";
 import { FormButton } from "./components/FormButton";
 import { FormInput } from "./components/FormInput";
+import Socials from "./components/Socials";
 import { Subtitle } from "./components/Subtitle";
 import { MainContainer } from "./layout/MainContainer";
 
@@ -14,6 +15,7 @@ export default function App() {
           <FormInput type="password" placeholder="Password" id="password" />
           <FormButton />
           <Subtitle />
+          <Socials />
         </Form>
       </MainContainer>
     </>
